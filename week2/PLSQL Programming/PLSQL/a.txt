@@ -1,0 +1,36 @@
+INSERT INTO Customers (CustomerID, Name, DOB, Balance, LastModified)
+VALUES (8, 'Ravi Iyer', TO_DATE('1955-03-10', 'YYYY-MM-DD'), 9000, SYSDATE);
+
+INSERT INTO Customers (CustomerID, Name, DOB, Balance, LastModified)
+VALUES (9, 'Kamala Devi', TO_DATE('1952-07-22', 'YYYY-MM-DD'), 8500, SYSDATE);
+
+INSERT INTO Customers (CustomerID, Name, DOB, Balance, LastModified)
+VALUES (10, 'Thomas Mathew', TO_DATE('1948-12-05', 'YYYY-MM-DD'), 11000, SYSDATE);
+
+INSERT INTO Customers (CustomerID, Name, DOB, Balance, LastModified)
+VALUES (11, 'Saroj Kumar', TO_DATE('1950-09-17', 'YYYY-MM-DD'), 7200, SYSDATE);
+
+COMMIT;
+
+INSERT INTO Loans (LoanID, CustomerID, LoanAmount, InterestRate, StartDate, EndDate)
+VALUES (17, 20, 4500, 5.5, SYSDATE, ADD_MONTHS(SYSDATE, 16));
+
+INSERT INTO Loans (LoanID, CustomerID, LoanAmount, InterestRate, StartDate, EndDate)
+VALUES (18, 21, 6000, 6.2, SYSDATE, ADD_MONTHS(SYSDATE, 14));
+
+INSERT INTO Loans (LoanID, CustomerID, LoanAmount, InterestRate, StartDate, EndDate)
+VALUES (19, 22, 3500, 4.8, SYSDATE, ADD_MONTHS(SYSDATE, 12));
+
+
+INSERT INTO Customers (CustomerID, Name, DOB, Balance, LastModified)
+VALUES (20, 'Anita Sharma', TO_DATE('1953-03-10', 'YYYY-MM-DD'), 9000, SYSDATE);
+
+INSERT INTO Customers (CustomerID, Name, DOB, Balance, LastModified)
+VALUES (21, 'Rajesh Gupta', TO_DATE('1949-11-25', 'YYYY-MM-DD'), 10500, SYSDATE);
+
+INSERT INTO Customers (CustomerID, Name, DOB, Balance, LastModified)
+VALUES (22, 'Meera Nair', TO_DATE('1951-06-30', 'YYYY-MM-DD'), 7800, SYSDATE);
+
+COMMIT;
+
+
