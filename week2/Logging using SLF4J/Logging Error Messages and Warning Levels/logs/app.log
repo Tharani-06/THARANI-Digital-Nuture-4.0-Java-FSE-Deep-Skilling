@@ -1,0 +1,5 @@
+2025-06-28 13:53:38 [ERROR] LoggingExample - This is an error message
+2025-06-28 13:55:38 [ERROR] LoggingExample - This is an error message
+2025-06-28 13:58:54 [INFO] LoggingExample - This is an info message.
+2025-06-28 13:58:54 [WARN] LoggingExample - This is a warning message.
+2025-06-28 13:58:54 [ERROR] LoggingExample - This is an error message
